@@ -14,7 +14,8 @@ const userSchema=new mongoose.Schema({
         require:true
     },
     image:{
-        type:'string'
+        type:'string',
+        require:true
     }
 
 })
